@@ -1,0 +1,244 @@
+
+.navlogo{
+	height: 80px;
+	width: 100%;
+	background: #1FB9A8;
+}
+.navbar{
+	position: relative;
+	height: 60px;
+	width:1349px;
+	display: block;
+	background:#2e2e2e;
+	overflow: hidden;
+}
+.navbar_a1{
+	background:rgb(255,101,54);
+}
+.navbar ul{
+	margin: 0;
+	padding-left: 75px;
+	list-style: none;
+
+}
+.navbar ul li{
+	display: inline-block;
+	line-height: 60px;
+	padding: 0 40px;
+	width:64px;
+	text-align:center;
+}
+.navbar ul li a{
+	line-height: 50px;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	height: inherit;
+	font-family: 微软雅黑;
+	font-weight: normal;
+	vertical-align: middle;
+}
+.navbar input{
+	float: right;
+	height: 26px;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding-right: 30px;
+	padding-left: 10px;
+	display: inline-block;
+	border-radius: 15px;
+	outline: 0;
+	position: relative;
+	top: 15px;
+	margin-right: 180px;
+}
+.navbar_ul>li:not(:first-child):hover{
+	background:rgb(255,101,54);
+}
+.content{
+	background: #1AEAD3;
+	margin-top: 18px;
+}
+.content1{
+	overflow: hidden;
+	width:1349px;
+}
+.content1_left{
+	width: 250px;
+	background: #EE6040;
+	margin-right: 16px;
+	margin-left: 75px;
+}
+.content1_left span{
+	display: inline-block;
+	line-height: 1.5;
+}
+.content1_left_top{
+	height: 45px;
+	background: #F0562F;
+	text-align: center;
+	line-height: 45px;
+}
+.content1_left_top span,.goodslist h3{
+	color: #FFFFFF;
+}
+
+.goodslist{
+	padding-left: 10px;
+}
+.goodslist a{
+	text-decoration: none;
+	font-size: 15px;
+	margin-right: 18px;
+	color: #a62f0b;
+}
+.content1_left,.content1_right{
+	display:inline-block;
+	height: 375px;
+	vertical-align:top;
+}
+.content1_right{
+	width: 920px;
+}
+#slider,.slides,.slides li,.slides img{
+	height: 100%;
+}
+.content2{
+	margin-bottom: 60px;
+	width:1349px;
+	overflow: hidden;
+}
+.content2_left{
+	float: left;
+	width: 251px;
+	height: 190px;
+	margin: 10px 20px 0 75px;
+	background:rgb(253,106,54);
+	font-family: 微软雅黑;
+}
+.richcontent_left{
+	height: 148px;
+	overflow-y: hidden;
+}
+.richcontent{
+    padding: 0;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin-left: 56px;
+    margin-top: 25px;
+    text-align: left;	
+    line-height: 1.8;
+}
+.richcontent span{
+	font-size:16px;
+	color: #fff;
+	font-family: 微软雅黑;
+}
+p{
+	display: block;
+	margin:0;
+}
+.content2_right{
+	float: left;
+	height: 190px;
+	width: 930px;
+	margin-top: 10px;
+}
+.content2_right_pic{
+	float: left;
+}
+.content2_right_pic img{
+	margin-right: 10px;
+}
+.content3{
+	padding: 0;
+	width: 100%;
+	display: block;
+}
+.content3_list{
+	width: 1200px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+#tab li{
+	width: 150px;
+	height: 50px;
+	float: left;
+	margin-right: 30px;
+	background: #000;
+	color: #fff;
+	font-size: 15px;
+	font-family: 微软雅黑;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 2px;
+	font-weight: bold;
+}
+#tab li:hover{
+	background: rgb(255,101,54);
+}
+#tab{
+	margin-left: 75px;
+}
+.content3_con{
+	width: 1191px;
+    margin: 0px auto;
+    display: block;
+}
+.content3_li{
+	display: inline-block;
+    width: 366px;
+    height: 239px;
+    margin: 35px 20px 54px 0;
+    position: relative;
+}
+.content3_li a{
+	overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.content3_links {
+    position: absolute;
+    background-color: rgba(255,255,255,.85);
+    bottom: -30px;
+    width: 293px;
+    height: 113px;
+    padding-top: 6px;
+    padding-bottom: 14px;
+    text-align: center;
+    left: 10%;
+}
+.goodsname{
+	display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+.moneysymbol, .current_price1 {
+    color: #f40;
+}
+.current_price1 {
+    font-size: 24px;
+    color: #f40;
+}
+.moneysymbol, .current_price1 {
+    color: #f40;
+}
+.current_price2 {
+    font-size: 16px;
+}
+.past_price {
+    text-decoration: line-through;
+    color: #767676;
+}
+.content3_links .buy_it{
+	display: block;
+    width: 152px;
+    height: 33px;
+    background-color: #f40;
+    margin: 10px auto;
+    border-radius: 3px;
+    color: #fff;
+    line-height: 30px;
+}
